@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginPage</title>
+    <style>
+        *{
+font-family: sans-serif;
+}
+body{
+    background: rgb(23,40,125);
+    background: linear-gradient(90deg, rgba(23,40,125,1) 19%, rgba(157,7,171,1) 62%);
+}
+#container{
+    width: 30%;
+    height: 500px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: white;
+}
+#heading{
+    text-align: center;
+    margin-top: 20px;
+}
+#input{
+    width: 80%;
+    
+    margin: auto;
+    margin-top: 5em;
+   
+}
+#email{
+    width: 100%;
+    border: 0px;
+    
+}
+#email+hr{
+    width: 100%;
+    height: 2px;
+    border: 0px;
+    background-color: gray;
+    margin-bottom: 2em;
+}
+#password{
+    width: 100%;
+    border: 0px;
+}
+#password+hr{
+    width: 100%;
+    height: 2px;
+    border: 0px;
+    background-color: gray;
+    margin-bottom: 3em;
+}
+#email:placeholder-shown{
+    font-size: large;
+    color: gray;
+}
+#password:placeholder-shown{
+    font-size: large;
+    color: gray;
+}
+#button{
+    width: 100%;
+    height: 50px;
+    
+    background: rgb(157,7,171);
+background: linear-gradient(90deg, rgba(157,7,171,1) 19%, rgba(36,64,200,1) 62%);
+    border: 0px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+#bottom{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 3em;
+    text-align: center;
+    
+}
+span{
+    color: blue;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="heading">
+            <h1>Login</h1>
+        </div>
+        <div id="input">
+            <input type="email" name="" id="email" placeholder="Email">
+        <hr>
+        <input type="password" name="" id="password" placeholder="Password">
+        <hr>
+        <button id="button">Login</button> 
+        </div>
+       
+        <div id="bottom">
+            <p>Forgot <span>Password</span>?</p>
+            <p> Don't have an account? <span>Sign up</span></p>
+        </div>
+    </div>
+</body>
+</html>
